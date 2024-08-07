@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://byfs1od60fbja"]
+
+[ext_resource type="Script" path="res://puzzle_piece.gd" id="1_12tsi"]
+
+[node name="PuzzlePiece" type="TextureRect"]
+clip_children = 2
+expand_mode = 1
+script = ExtResource("1_12tsi")
+
+[node name="Content" type="TextureRect" parent="."]
+layout_mode = 0
+
+[node name="Shadow" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
